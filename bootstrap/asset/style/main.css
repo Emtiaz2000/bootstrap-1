@@ -1,0 +1,79 @@
+*{
+    scroll-behavior: smooth;
+    padding: 0px;
+    margin: 0px;
+}
+
+a{
+    text-decoration: none;
+    color:#000;
+}
+
+
+/*-----------------
+ Header section
+ ------------------ */
+ #header{
+    height: 80px;
+    background: #fff;
+    position: relative;
+    z-index: 10;
+ }
+nav{
+    height:100%;
+   
+}
+
+ /*-----------------
+ Hero section
+ ------------------ */
+ #hero{
+    position: relative;
+    overflow: hidden;
+ }
+ #hero::after{
+    content: '';
+    background: url('../image/baner-dec-right.png') no-repeat;
+    background-size: contain;
+    position:absolute;
+    display: block;
+    height: 100%;
+    width: 100px;
+    top: 0px;
+    right: 0px;
+}
+
+#hero::before{
+    content: '';
+    background: url('../image/baner-dec-left.png') no-repeat;
+    background-size: contain;
+    position:absolute;
+    display: block;
+    height: 92%;
+    width: 190px;
+    top: 0px;
+    left: 0px;
+}
+
+/* -----------------
+About section
+---------------------- */
+#about{
+    background: url('../image/about-bg.png') no-repeat;
+    height:100%;
+}
+.aboutBg{
+    background: #FF3252;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    
+}
+
+/* -----------------
+Review section
+---------------------- */
+#contact{
+    width:100%;
+    background:url('../image/about-bg.png') no-repeat;
+    height: 400px;
+}
